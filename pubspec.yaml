@@ -2,7 +2,7 @@ name: flutter_plugin_scan
 description: A new Flutter plugin.
 version: 0.0.1
 author: john hu
-homepage:
+homepage: https://github.com/hujun1288/flutter_image_scan.git
 
 environment:
   sdk: ">=2.1.0 <3.0.0"

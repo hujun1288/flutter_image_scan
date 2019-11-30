@@ -30,7 +30,7 @@ UIViewController* _viewController;
         _result=result;
         if (call.method!=nil&&![call.method isEqualToString:@""]) {
             //[@"getBatteryLevel" isEqualToString:call.method]
-            NSString* batteryLevel = [@"iOS " stringByAppendingString:[[UIDevice currentDevice] systemVersion]];
+//            NSString* batteryLevel = [@"iOS " stringByAppendingString:[[UIDevice currentDevice] systemVersion]];
     //            result(batteryLevel);
             [self openCameraPage:call.method];
         } else {
@@ -38,8 +38,8 @@ UIViewController* _viewController;
         }
 }
 
--(void)openCameraPage:(NSString*)str{V
-    SNFCreditScoreCameraType pt=IDCARD_POSITIE;
+-(void)openCameraPage:(NSString*)str{
+    SNFCreditScoreCameraType pt=IDCARD_POSITIVE;
     NSLog(@"MyTag:FlutterPluginScanPlugin openCameraPage:%@",str);
     if ([str containsString:@"PASSPORT_PERSON_INFO"]) {
         pt=PASSPORT_PERSON_INFO;
