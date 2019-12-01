@@ -572,6 +572,10 @@ public class CameraActivity extends AppCompatActivity implements View.OnClickLis
         }
 //        sensorController.stop();
 //        mCamera.cancelAutoFocus();
+        if (mCamera!=null){
+            mCamera.release();
+        }
+
         mCamera=null;
         timer=null;
         timerTask=null;
