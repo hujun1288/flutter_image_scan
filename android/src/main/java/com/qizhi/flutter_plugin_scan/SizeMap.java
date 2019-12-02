@@ -1,6 +1,6 @@
 package com.qizhi.flutter_plugin_scan;
 
-import android.support.v4.util.ArrayMap;
+import androidx.collection.ArrayMap;
 
 import java.util.Set;
 import java.util.SortedSet;
